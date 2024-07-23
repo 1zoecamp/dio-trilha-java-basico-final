@@ -19,10 +19,10 @@ public class Account {
 	private String number;
 	private String agency;
 
-	@Column(precision = 2, scale = 13) // 11 inteiros e 2 decimais de precisão
+	@Column(precision = 13, scale = 2) // 11 inteiros e 2 decimais de precisão
 	private BigDecimal balance;
 
-	@Column(name = "additional_limit", precision = 2, scale = 13) // limit pode ser uma palavra reservada em db
+	@Column(name = "additional_limit", precision = 13, scale = 2) // limit pode ser uma palavra reservada em db
 	private BigDecimal limit;
 
 	// getters and setters
