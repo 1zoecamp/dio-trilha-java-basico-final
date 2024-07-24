@@ -10,6 +10,7 @@ public class DioDesignPatternsPokedexApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(DioDesignPatternsPokedexApplication.class, args);
+		
 	}
 
 }
